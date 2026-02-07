@@ -29,6 +29,7 @@ int rootscan(const char *ip, int port) {
     return -1;      // CLOSED
 }
 
+
 void fatalerr(const char *err) {
     fprintf(stderr, "[!] %s\n", err);
 }
